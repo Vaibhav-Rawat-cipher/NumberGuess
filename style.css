@@ -10,7 +10,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/GuessNum/8bit.jpg');
+  background-image: url('8bit.jpg');
   background-size: cover;
   background-position: center;
   opacity: 1; /* reduce image opacity */
