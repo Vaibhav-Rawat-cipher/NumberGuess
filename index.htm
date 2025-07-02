@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumGuess</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: rgb(75, 179, 197); background-size: cover; color: #dacbcb;">
+    <div class="BackgrounOverlay"></div>
+    <h1>Number Guessing Game</h1>
+    <h2>All you need to know:</h2>
+    <p class="ParaGraph1">- The game generates a random number between 1 and 100.</p>
+    <p class="ParaGraph2">- You have 10 attempts to guess the number</p>
+    <div class="Container">
+    <form  class="form">
+               <label for="guessField" class="form">Guess a random number</label>
+               <input type="text" id="guessField" class="form" placeholder="Enter between 1 and 100">
+               <button class="submit" id="sbt" type="submit"> Submit Guess</button>
+                <button class="click" id="rst" type="submit">Reset Game</button>
+    </form>
+        <div class="ResultLines">
+
+            <p>Previous guesses: <span class="oldOnes"></span></p>
+            <p>Attempts left: <span class="remainingGuesses">10</span></p>
+            <p class="hints"></p>
+        </div>
+    </div>
+    <div class="contact">
+        <p>Visit my Github profile for more projects- <a href="https://github.com/Vaibhav-Rawat-cipher" target="_blank">
+            <img src="/GuessNum/github.jpg" alt="Github Logo" style="width: 30px; height: 30px; vertical-align: middle;"> 
+        </a></p>
+        <p>Let us connect on Linkedin and X- <a href="https://www.linkedin.com/in/vaibhav-rawat-1a3198322/" target="_blank">
+            <img src="/GuessNum/LinLogo.jpg" alt="Instagram Logo" style="width: 30px; height: 30px; vertical-align: middle;"></a>
+        <a href="https://x.com/vibhu4905" target="_blank">
+            <img src="/GuessNum/XLogo.jpg" alt="X Logo" style="width: 30px; height: 30px; vertical-align: middle;"></a>
+    </div>
+    <footer>
+        <p>-This is just a practice project-</p>
+    
+</body>
+</html>
